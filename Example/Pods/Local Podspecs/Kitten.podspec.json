@@ -1,0 +1,27 @@
+{
+  "name": "Kitten",
+  "version": "0.1.0",
+  "summary": "A short description of Kitten.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guoc/Kitten",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guoc": "guochen42@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/guoc/Kitten.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Kitten/Classes/**/*",
+  "resource_bundles": {
+    "Kitten": [
+      "Kitten/Assets/*.xcassets"
+    ]
+  }
+}

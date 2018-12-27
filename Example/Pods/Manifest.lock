@@ -1,0 +1,21 @@
+PODS:
+  - Kitten (0.1.0)
+  - NB (0.1.0)
+
+DEPENDENCIES:
+  - Kitten (from `../`)
+  - NB (from `../../NB/`)
+
+EXTERNAL SOURCES:
+  Kitten:
+    :path: "../"
+  NB:
+    :path: "../../NB/"
+
+SPEC CHECKSUMS:
+  Kitten: dd2af684ab345e83ae855aa2d4b18318813bcb35
+  NB: 1666c6b170b8bd702b5bb329c245692820e2e3fb
+
+PODFILE CHECKSUM: f1a009929478c3ce8274e0796e5c583ddc77d73c
+
+COCOAPODS: 1.5.3

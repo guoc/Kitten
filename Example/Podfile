@@ -1,11 +1,8 @@
-use_frameworks!
+use_modular_headers!
+
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
 target 'Kitten_Example' do
   pod 'Kitten', :path => '../'
-
-  target 'Kitten_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod "NB", :path => '../../NB/'
 end
